@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
   //Set the response HTTP header with HTTP status and Content type
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  console.log(multiply(3, 4 ))
+  console.log(multiply(3, 4 )) 
   res.end( String(multiply(3, 4)));
 });
 

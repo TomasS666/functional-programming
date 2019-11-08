@@ -15,7 +15,6 @@ function filterEmptyValues(data){
             let newData = data.filter(item =>{
                 return item !== "";
             })
-
             resolve(newData)
         }else{
             reject(new Error('sorry mate'))
@@ -30,7 +29,6 @@ function replaceAndSeperate(data, regexp, newValue = ','){
         if(data !== undefined){
             let newData = data.map(item => {
                 return item.replace(regexp, newValue).split(newValue)
-                
             })
             resolve(newData);
         }else{
@@ -44,7 +42,6 @@ function capatalize(arrays){
     return new Promise((resolve, reject)=>{
         if(arrays !== undefined){
             let capatalized = arrays.map(array => array.map(item => item.replace(item.charAt(0), item.charAt(0).toUpperCase() ) ) )
-            // console.log(capatalized)
             resolve(capatalized)
         }else{
             reject(new Error('Value is undefined, need an array'))

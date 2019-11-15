@@ -22,6 +22,8 @@ Laurens voor de voorbeelden, vooral de legend in d3 en de runquery die ik als ba
 Ramon voor alle feedback op mijn wiki, het helpen met d3 en het deployen. 
 Robert voor de mental support en de tips voor de cleanup pattern.
 
+[Curran Kelleher](https://www.youtube.com/channel/UCSwd_9jyX4YtDYm9p9MxQqw) voor alle tutorials en een beter begrip van D3 door het wat luchtiger te maken.
+
 ## Fetch pattern
 Fetch functions:
 

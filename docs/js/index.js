@@ -1,6 +1,6 @@
 import { getData } from './helpers/fetchData.js';
 
-import { select, json, tsv, geoPath, geoMercator, zoom, event, scale } from "d3";
+import { select, json, tsv, geoPath, geoMercator, zoom, event } from "d3";
 import { feature } from 'topojson';
 
 const url ="https://api.data.netwerkdigitaalerfgoed.nl/datasets/ivo/NMVW/services/NMVW-38/sparql";

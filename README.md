@@ -1,9 +1,8 @@
 ## Functional programming - Weapon datavis
 
-
+![alt text](https://github.com/TomasS666/functional-programming/blob/master/wiki/weaponized-world.png "Logo Title Text 1")
 
 ## Description
-This is a project for a better understanding of D3, the functional programming approach and a general better understanding of vanilla Javascript and asynchronous JS. 
 
 ## Installation steps
 You can clone this repository by using the command ``` git clone ``` in your CLI.

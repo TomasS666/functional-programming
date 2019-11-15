@@ -76,6 +76,9 @@ Cleanup functions
 
 ```javascript
 
+/*
+    From a newline seperated column to an array
+*/
 function columnToArray (column) {
     return new Promise((resolve, reject) =>{
         if(column !== undefined){ 
@@ -85,6 +88,10 @@ function columnToArray (column) {
         }
     })
 }
+
+/*
+    Filter out empty values    
+*/
 
 function filterEmptyValues(data){
     return new Promise((resolve, reject)=>{
@@ -96,7 +103,9 @@ function filterEmptyValues(data){
     })
 }
 
-// returns an array split on a value given or comma by default
+/*
+    Returns an array split on a value given or comma by default
+*/
 function replaceAndSeperate(data, regexp, item, newValue = ','){
    
     return new Promise((resolve, reject) => {

@@ -19,16 +19,15 @@ function fetchData( query, format ){
     return format ? fetch(`${ query }&format=${ format }`) : fetch(`${ query }`);
 }
 
-// Data response - needs a fetch as argument and an 
+// Data response
 
 async function dataResponse( fetch, fn ){
 
     // Await the given fetch promise 
     let response = await fetch;
-    let result = fn ? await fn(response) : response;
     
     // if callback function is given use it, call it, else just return the response
-    return result;
+    return ( fn ? fn(response) : response );
 }
 
 // Data parsing / converting
@@ -40,11 +39,7 @@ async function toJSON( response ){
     return res;
 }
 
-/* 
-    There is a reason I export all of my functions which is described in my wiki
-*/
-
-export { getData, createQuery, fetchData, dataResponse, toJSON }
+export { getData }
 
 
 

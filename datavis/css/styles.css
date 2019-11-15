@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+  background-color: grey;
+}
+
+body:hover{
+	cursor: grab;
+}
+
+h1{
+  font-family: sans-serif;
+  padding: 3rem 2rem;
+  color: #fff;
+  background-color: black;
+  margin: -.5rem 0 0 0;
+  
+}
+
+.legend-group{
+
+}
+
+.legend-wrapper{
+	fill: hsla(0, 0%, 0%, 0.52);
+  width: 15rem;
+  height: 10rem;
+}
+
+.legend-text{
+	text-anchor: end;
+  fill: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+.country{
+	fill: black;
+	stroke: grey;
+  stroke-width: 0.05px;
+}
+
+.country:hover{
+	cursor: pointer;
+  fill: hsla(0, 0%, 0%, 0.7);
+}
+
+.sphere{
+  fill: grey;
+}
+
+.wapenonderdelen{
+ fill: red; 
+}
+

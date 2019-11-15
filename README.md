@@ -13,6 +13,9 @@ Or you can just push the green button right on the top of this page and download
 - Functional data fetch and transform pattern
 - Cleaning pattern for language column student survey data
 
+## Demo Datavis
+(Find it here!)[https://tomass666.github.io/functional-programming/]
+
 ## Fetch pattern
 Fetch functions:
 

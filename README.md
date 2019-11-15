@@ -13,6 +13,17 @@ Or you can just push the green button right on the top of this page and download
 - Functional data fetch and transform pattern
 - Cleaning pattern for language column student survey data
 
+## Demo Datavis
+[Find it here!](https://tomass666.github.io/functional-programming/)
+
+## Credits
+Eyob voor alle tips rondom het chainen van mijn functies.
+Laurens voor de voorbeelden, vooral de legend in d3 en de runquery die ik als basis heb gebruikt.
+Ramon voor alle feedback op mijn wiki, het helpen met d3 en het deployen. 
+Robert voor de mental support en de tips voor de cleanup pattern.
+
+[Curran Kelleher](https://www.youtube.com/channel/UCSwd_9jyX4YtDYm9p9MxQqw) voor alle tutorials en een beter begrip van D3 door het wat luchtiger te maken.
+
 ## Fetch pattern
 Fetch functions:
 

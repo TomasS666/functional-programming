@@ -3,6 +3,10 @@
 ![alt text](https://github.com/TomasS666/functional-programming/blob/master/wiki/weaponized-world.png "Logo Title Text 1")
 
 ## Description
+Data visualation demo for the NMVW and cleanup pattern for the NMVW API data.
+
+## Concept
+See a complete view on weapons and weaponparts their functions on a worldwide scale. The locations represent the location of heritage or the location where the object was found.
 
 ## Installation steps
 You can clone this repository by using the command ``` git clone ``` in your CLI.
@@ -66,6 +70,7 @@ Eyob voor alle tips rondom het chainen van mijn functies.
 Laurens voor de voorbeelden, vooral de legend in d3 en de runquery die ik als basis heb gebruikt.
 Ramon voor alle feedback op mijn wiki, het helpen met d3 en het deployen. 
 Robert voor de mental support en de tips voor de cleanup pattern.
+Voor het plotten van cirlces op de map: [link](http://bl.ocks.org/lokesh005/7640d9b562bf59b561d6)
 
 [Curran Kelleher](https://www.youtube.com/channel/UCSwd_9jyX4YtDYm9p9MxQqw) voor alle tutorials en een beter begrip van D3 door het wat luchtiger te maken.
 

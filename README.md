@@ -3,6 +3,10 @@
 ![alt text](https://github.com/TomasS666/functional-programming/blob/master/wiki/weaponized-world.png "Logo Title Text 1")
 
 ## Description
+Data visualation demo for the NMVW and cleanup pattern for the NMVW API data.
+
+## Concept
+See a complete view on weapons and weaponparts their functions on a worldwide scale. The locations represent the location of heritage or the location where the object was found.
 
 ## Installation steps
 You can clone this repository by using the command ``` git clone ``` in your CLI.
